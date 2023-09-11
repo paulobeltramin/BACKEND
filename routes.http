@@ -1,0 +1,47 @@
+# adicionar videos 
+
+POST http://localhost:3001/videos
+Content-Type: application/json
+
+
+{
+"title": "video",
+"description": "novo video do canal ",
+"duration": 180
+}
+
+###
+
+
+# buscar videos 
+
+GET http://localhost:3001/videos
+
+
+
+
+###
+
+# atualizar videos 
+
+PUT http://localhost:3001/videos
+Content-Type: application/json
+
+
+{
+"title": "video 01",
+"description": "video novo no canal",
+"duration": 10
+}
+
+
+###
+
+
+
+# deletar videos 
+
+DELETE  http://localhost:3001/videos/4a54d184-8261-4deb-81e4-035134bc1125
+
+
+
